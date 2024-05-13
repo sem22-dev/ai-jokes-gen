@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <nav className="">
       <div className="flex items-center justify-between border py-6 px-12 md:px-32 lg:px-72 xl:px-96">
-        <Link href={'/'}>Ai Joke Generator</Link>
+        <Link href={'/'} className=" text-lg font-semibold">Ai Joke Generator</Link>
         <AvatarDropdown />
       </div>
     </nav>
