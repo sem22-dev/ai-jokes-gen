@@ -47,7 +47,7 @@ function AvatarDropdown() {
           <div className="py-1">
             <p className="block px-4 py-2 text-sm text-gray-700">Hi <span className="text-green-500">{session?.user?.name}</span></p>
             <button onClick={handleLogout} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w-full text-left">
-              Logout
+              Log out
             </button>
           </div>
         </div>
